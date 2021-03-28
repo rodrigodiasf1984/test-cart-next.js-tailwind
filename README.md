@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h3 align="center">
+  Feito com carinho
+</h3>
 
-## Getting Started
+## :camera: Demonstração
+<h1 align="center">   
+  <img alt="resultado" src="https://github.com/rodrigodiasf1984/teste-pizza/blob/development/public/assets/demostration/demonstration.gif"/>
+</h1>
 
-First, run the development server:
+## :rocket: Sobre o desafio
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Desenvolver um “Carrinho de compras” usando uma API.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Você irá listar os produtos, exibir o total da compra e exibir se o pedido tem frete grátis ou não.
+- Listar os produtos na api.
+- Os produtos devem ter imagem, nome e preço.
+- Exibir ao fim da lista o valor total de todos os produtos.
+- Exibir o texto de frete grátis dependendo do valor do carrinho.
+- O texto de frete grátis deve aparecer se o valor for acima de **R$ 10,00.**
+- Seguir o Layout.
+- Usar Flex-Box CSS.
+- 
+## :clipboard: Iniciando a aplicação Next.Js
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone o repositório com `https://github.com/rodrigodiasf1984/test-cart-next.js-tailwind.git`
+2. Abra um terminal e entre na pasta `cd test-cart-next.js`
+3. Instale todas as dependencias com o comando `yarn`
+4. Digite `yarn dev` para iniciar o projeto
+5. Para a versão optimizada para produção digite `yarn bluid` e `yarn start`
+7. Abra uma nova aba do navegador a url http://localhost:3000/
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :clipboard: Algumas informações de arquitetura de arquivos
+`./src` -- Arquivos `.tsx` pasta onde estão organizado as subpastas do mesmo
 
-## Learn More
+`./src/assets` -- Arquivos que não são códigos subdivididos de acordo com sua funcionalidade
 
-To learn more about Next.js, take a look at the following resources:
+`./src/components` -- Arquivos `.tsx` de componentes React reutilizáveis em mais de um componente pai.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+`./src/pages` -- Arquivos `tsx` que descrevem componentes React que representam uma página acessável
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+`./src/styles` -- Arquivos `.ts e css` arquivos responsáveis pela estilização do projeto
 
-## Deploy on Vercel
+## :hammer: Ferramentas utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 📄 **Type script** - Projeto criado com typescript 
+- ⚛️ **Styled Components** - Biblioteca Javascript pra estilizar componentes
+- 📄 **Axios** - Biblioteca Javascript para fazer requisições a API
+- 📄 **TailwindCss** Framework de css mais utilizado atualmente
+- 📄 **Tailwind-styled-components** Bibioteca para usar o TailwindCss junto com o styled-components
+- 📄 **Commitlint e Commitzen** Bibiotecas utilizada para padronizar os commits 
+- 📄 **Next.Js** É um framework para React
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</h1>
+
