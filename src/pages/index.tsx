@@ -96,8 +96,8 @@ export default function Home({
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const lower = await api.get('/abaixo-de-10');
-  const higher = await api.get('/acima-de-10');
+  const lower = await api.get('/api/abaixo-10');
+  const higher = await api.get('/api/acima-10');
   const listProductsHigherThen10 = higher?.data;
   const listProductsLowerThen10 = lower?.data;
 
