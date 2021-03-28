@@ -4,7 +4,7 @@
 
 ## :camera: Demonstração
 <h1 align="center">   
-  <img alt="resultado" src="https://github.com/rodrigodiasf1984/teste-pizza/blob/development/public/assets/demostration/demonstration.gif"/>
+  <img alt="resultado" src="https://github.com/rodrigodiasf1984/test-cart-next.js-tailwind/blob/main/public/assets/demonstration/demonstration.gif"/>
 </h1>
 
 ## :rocket: Sobre o desafio
